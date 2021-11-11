@@ -1,0 +1,18 @@
+.barbers__button {
+    position: absolute;
+    bottom: 52px;
+    background-color: #ee4b4b;
+    font-size: 34px;
+    line-height: 62px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 3px 71px 0;
+    z-index: 2;
+    border: none;
+}
+
+.barbers__button:hover {
+    cursor: pointer;
+    background-color: #f5a34d;
+}

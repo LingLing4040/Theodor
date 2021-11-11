@@ -1,0 +1,7 @@
+.page {
+    background-color: #f2f1ec;
+
+    min-width: 320px;
+    max-width: 1920px;
+    margin: 0 auto 0;
+}

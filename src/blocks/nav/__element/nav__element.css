@@ -1,0 +1,15 @@
+.nav__element {
+    padding: 2px 34px 0;
+    text-transform: uppercase;
+    font-size: 34px;
+    line-height: 28px;
+    font-weight: 700;
+    color: black;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.nav__element:hover {
+    background-color: #000000;
+    color: white;
+}

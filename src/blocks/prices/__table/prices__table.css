@@ -1,0 +1,5 @@
+.prices__table {
+    background-color: #d9dbda;
+    display: flex;
+    flex-direction: column;
+}

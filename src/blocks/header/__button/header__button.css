@@ -1,0 +1,19 @@
+.header__button {
+    /* text-transform: uppercase; */
+    font-size: 34px;
+    line-height: 62px;
+    font-weight: 700;
+    width: 238px;
+    background-color: #ee4b4b;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 3px 0 0 0;
+    border: 0;
+}
+
+.header__button:hover {
+    cursor: pointer;
+    background-color: #f5a34d;
+}

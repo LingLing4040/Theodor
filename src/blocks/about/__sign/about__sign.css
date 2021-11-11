@@ -1,0 +1,6 @@
+.about__sign {
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

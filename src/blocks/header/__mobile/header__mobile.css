@@ -1,0 +1,8 @@
+.header__mobile {
+    text-transform: uppercase;
+    font-size: 34px;
+    line-height: 28px;
+    font-weight: 700;
+    text-align: center;
+    margin: 38px auto 0;
+}

@@ -1,0 +1,6 @@
+.merch__chair {
+    grid-area: merch__chair;
+    box-sizing: border-box;
+
+    width: 100%;
+}

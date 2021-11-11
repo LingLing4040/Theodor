@@ -1,0 +1,6 @@
+.about__theodor-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid: 0;
+}

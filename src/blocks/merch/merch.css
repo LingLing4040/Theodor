@@ -1,0 +1,10 @@
+.merch {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 660px);
+    grid-template-areas:
+        'merch__t-shirt merch__t-shirt merch__stickers'
+        'merch__shaver merch__shaver merch__bag'
+        'merch__chair merch__cosmetics merch__cosmetics';
+}

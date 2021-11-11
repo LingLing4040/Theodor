@@ -1,0 +1,9 @@
+.nav__list {
+    display: flex;
+    gap: 83px;
+    /* margin: 0 0 0 351px; */
+    align-self: center;
+    list-style: none;
+    padding: 0;
+    justify-content: space-evenly;
+}

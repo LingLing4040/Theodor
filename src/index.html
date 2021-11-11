@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+        />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Theodor</title>
+    </head>
+    <body class="page">
+        <div class="content">
+            <div class="header">
+                <div class="header__info">
+                    <p class="header__text">
+                        WWW.THEODORE-BARBERSHOP.COM @THEODORE_BARBERSHOP УЛ.&nbsp;БАКУНИНСКАЯ 72С.2
+                        10:00&nbsp;-&nbsp;22:00
+                    </p>
+                </div>
+
+                <img class="header__logo" src="<%=require('./images/logo.png')%>" alt="Логотип" />
+                <div class="header__contact">
+                    <button class="header__button">Записаться</button>
+                    <p class="header__mobile">8 (968) 997-66-77</p>
+                    <nav class="header__social">
+                        <a href="https://www.facebook.com/theodore.barbershop.msk">
+                            <img
+                                class="header__social-icon"
+                                src="<%=require('./images/fb.png')%>"
+                                alt="Иконка Фейсбука"
+                            />
+                        </a>
+                        <a href="https://www.instagram.com/theodore_barbershop/">
+                            <img
+                                class="header__social-icon"
+                                src="<%=require('./images/ig.png')%>"
+                                alt="Иконка Инсты"
+                            />
+                        </a>
+                        <a href="https://vk.com/theodore_barbershop">
+                            <img
+                                class="header__social-icon"
+                                src="<%=require('./images/vk.png')%>"
+                                alt="Иконка Вк"
+                            />
+                        </a>
+                    </nav>
+                </div>
+            </div>
+            <main>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li>
+                            <a class="nav__element" href="#">о нас</a>
+                        </li>
+                        <li>
+                            <a class="nav__element" href="#">барберы</a>
+                        </li>
+                        <li>
+                            <a class="nav__element" href="#">услуги</a>
+                        </li>
+                        <li>
+                            <a class="nav__element" href="#">мерч & косметика</a>
+                        </li>
+                        <li>
+                            <a class="nav__element" href="#">где мы</a>
+                        </li>
+                    </ul>
+                </nav>
+                <section class="about">
+                    <div class="about__theodor-logo">
+                        <p class="about__trdmrk about__trdmrk_type_upper">trd mrk</p>
+                        <img class="about__image" src="<%=require('./images/about__image.png')%>""
+                        alt="Эмблема барбершопа" />
+                        <img
+                            class="about__little-logo"
+                            src="<%=require('./images/theodor_little_logo.png')%>"
+                            alt="Логотип барбершопа"
+                        />
+                        <p class="about__trdmrk about__trdmrk_type_lower">est msk</p>
+                    </div>
+                    <div class="about__text">
+                        <h1 class="about__paragraph about__paragraph_red">привет, это теодор!</h1>
+                        <p class="about__paragraph">ищешь классный барбершоп?</p>
+                        <p class="about__paragraph">дружище, ты зашел по адресу!</p>
+                        <p class="about__paragraph">
+                            мы знаем, как важно всегда круто выглядеть и готовы прийти на помощь!
+                            Лучший сервис, мощные барберы и дружелюбные цены!
+                        </p>
+                        <p class="about__paragraph">заходи к нам в гости!</p>
+                        <p class="about__paragraph">всегда к твоим услугам!</p>
+                    </div>
+                    <div class="about__sign">
+                        <img
+                            class="about__sign-image"
+                            src="<%=require('./images/theodor_big_logo.png')%>"
+                            alt="Надпись 'О нас'"
+                        />
+                        <p class="about__us">о нас</p>
+                    </div>
+                </section>
+                <section class="barbers">
+                    <div class="barbers__item barbers__item_color_black">
+                        <img
+                            class="barbers__barber-photo"
+                            src="<%=require('./images/barber1.png')%>"
+                            alt="Фото барбера"
+                        />
+                        <button class="barbers__button">Алексей</button>
+                    </div>
+                    <div class="barbers__item barbers__item_color_blue">
+                        <img
+                            class="barbers__barber-photo"
+                            src="<%=require('./images/barber2.png')%>"
+                            alt="Фото барбера"
+                        />
+                        <button class="barbers__button">Остон</button>
+                    </div>
+                    <div class="barbers__item barbers__item_color_orange">
+                        <!-- <img class="barbers__barber-photo" src="" alt="Фото барбера" /> -->
+                        <button class="barbers__button">Сергей</button>
+                    </div>
+                </section>
+                <img
+                    class="salon-photo"
+                    src="<%=require('./images/salon.png')%>"
+                    alt="Фото салона"
+                />
+                <section class="prices">
+                    <div class="prices__logo">
+                        <img
+                            class="prices__logo-img"
+                            src="<%=require('./images/prices-logo.png')%>"
+                            alt="Надпись цены"
+                        />
+                        <p class="prices__sign">Цены</p>
+                    </div>
+
+                    <div class="prices__table">
+                        <div class="prices__table-cell">
+                            <h2 class="prices__table-header">Комплекс</h2>
+                            <ul class="prices__table-list">
+                                <li class="prices__table-text">
+                                    Мужская стрижка + моделирование бороды (ОБ)<span
+                                        class="prices__span-accent"
+                                        >2000 руб.</span
+                                    >
+                                </li>
+                                <li class="prices__table-text">
+                                    Мужская стрижка + моделирование бороды (СБ)<span
+                                        class="prices__span-accent"
+                                        >1800 руб.</span
+                                    >
+                                </li>
+                                <li class="prices__table-text">
+                                    папа + сын (до 12 лет)<span class="prices__span-accent"
+                                        >1700 руб.</span
+                                    >
+                                </li>
+                                <li class="prices__table-text">
+                                    друг + друг<span class="prices__span-accent">2200 руб.</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="prices__table-cell">
+                            <h2 class="prices__table-header">Стрижка</h2>
+                            <ul class="prices__table-list">
+                                <li class="prices__table-text">
+                                    Мужская стрижка<span class="prices__span-accent"
+                                        >1300 руб.</span
+                                    >
+                                </li>
+                                <li class="prices__table-text">
+                                    Детская стрижка до 12 лет<span class="prices__span-accent"
+                                        >800 руб.</span
+                                    >
+                                </li>
+                                <li class="prices__table-text">
+                                    Стрижка машинкой (одна насадка)<span class="prices__span-accent"
+                                        >500 руб.</span
+                                    >
+                                </li>
+                                <li class="prices__table-text">
+                                    Бритье головы<span class="prices__span-accent">1000 руб.</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="prices__table">
+                        <div class="prices__table-cell">
+                            <h2 class="prices__table-header">Борода и усы</h2>
+                            <ul class="prices__table-list">
+                                <li class="prices__table-text">
+                                    Окантовка бороды и стрижка без бритвы<span
+                                        class="prices__span-accent"
+                                        >500 руб.</span
+                                    >
+                                </li>
+                                <li class="prices__table-text">
+                                    Моделирование бороды и усов (СБ)<span
+                                        class="prices__span-accent"
+                                        >800 руб.</span
+                                    >
+                                </li>
+                                <li class="prices__table-text">
+                                    Моделирование бороды и усов (ОБ)<span
+                                        class="prices__span-accent"
+                                        >1000 руб.</span
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="prices__table-cell">
+                            <h2 class="prices__table-header">Укладка и макияж</h2>
+                            <ul class="prices__table-list">
+                                <li class="prices__table-text">
+                                    Укладка волос<span class="prices__span-accent">500 руб.</span>
+                                </li>
+                                <li class="prices__table-text">
+                                    Камуфляж бороды<span class="prices__span-accent">700 руб.</span>
+                                </li>
+                                <li class="prices__table-text">
+                                    Камуфляж седины<span class="prices__span-accent"
+                                        >1000 руб.</span
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="prices__table-cell">
+                            <h2 class="prices__table-header">Удаление волос</h2>
+                            <ul class="prices__table-list">
+                                <li class="prices__table-text">
+                                    Нос - уши<span class="prices__span-accent">400 руб.</span>
+                                </li>
+                                <li class="prices__table-text">
+                                    Пушковая зона на щеках и шее<span class="prices__span-accent"
+                                        >600 руб.</span
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <img
+                    class="salon-photo"
+                    src="<%=require('./images/salon2.png')%>"
+                    alt="Фото салона"
+                />
+                <section class="merch">
+                    <div class="merch__t-shirt">
+                        <img class="" src="<%=require('./images/t-shirt.png')%>" alt="Футболка" />
+                        <button></button>
+                    </div>
+                    <img
+                        class="merch__stickers"
+                        src="<%=require('./images/stickers.png')%>"
+                        alt="Визитки"
+                    />
+                    <img
+                        class="merch__shaver"
+                        src="<%=require('./images/shaver.png')%>"
+                        alt="Бритва"
+                    />
+                    <img class="merch__bag" src="<%=require('./images/bag.png')%>" alt="Сумка" />
+                    <img
+                        class="merch__chair"
+                        src="<%=require('./images/chair.png')%>"
+                        alt="Фото салона"
+                    />
+                    <div class="merch__cosmetics">
+                        <img
+                            class="merch__cosmetics-img"
+                            src="<%=require('./images/cosmetics.png')%>"
+                            alt="Косметика"
+                        />
+                        <button></button>
+                    </div>
+                </section>
+                <section class="location"></section>
+            </main>
+            <footer></footer>
+        </div>
+        <script src="./pages/index.js"></script>
+    </body>
+</html>
