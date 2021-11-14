@@ -1,0 +1,1 @@
+(()=>{"use strict";var t=document.querySelector(".about"),e=document.querySelector(".button-up");e.addEventListener("click",(function(){window.scrollTo(pageYOffset,0)})),document.addEventListener("scroll",(function(){var o=window.pageYOffset;o>=t.offsetTop&&e.classList.add("button-up_active"),o<=t.offsetTop&&e.classList.remove("button-up_active")}))})();
