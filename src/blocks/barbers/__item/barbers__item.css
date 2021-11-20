@@ -1,13 +1,13 @@
 .barbers__item {
-    height: 660px;
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
 }
 
-@media screen and (max-width: 1640px) {
+@media screen and (max-width: 425px) {
     .barbers__item {
-        /* height: unset; */
+        /* height: 560px; */
     }
 }
