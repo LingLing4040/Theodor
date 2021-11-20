@@ -1,4 +1,10 @@
 .about__trdmrk_type_lower {
-    position: relative;
-    top: -66px;
+    margin-bottom: auto;
+    padding-bottom: 35px;
+}
+
+@media screen and (max-width: 640px) {
+    .about__trdmrk_type_lower {
+        display: none;
+    }
 }

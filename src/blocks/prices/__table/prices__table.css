@@ -2,4 +2,17 @@
     background-color: #d9dbda;
     display: flex;
     flex-direction: column;
+    /* padding-bottom: 10%; */
+}
+
+@media screen and (max-width: 640px) {
+    .prices__table {
+        grid-template-columns: 1fr;
+        /* grid-template-rows: 660px; */
+    }
+
+    .prices__table:last-of-type {
+        grid-template-columns: 1fr;
+        padding-bottom: 10%;
+    }
 }

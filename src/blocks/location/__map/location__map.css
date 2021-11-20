@@ -1,0 +1,5 @@
+.location__map {
+    grid-area: location__map;
+    display: flex;
+    justify-content: center;
+}

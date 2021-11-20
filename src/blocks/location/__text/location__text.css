@@ -1,0 +1,8 @@
+.location__text {
+    margin: 93px auto 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    max-width: 90%;
+}

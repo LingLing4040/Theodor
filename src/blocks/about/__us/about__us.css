@@ -1,8 +1,10 @@
 .about__us {
-    margin: 115px auto 0;
+    margin: 0 auto 0;
     color: white;
     font-size: 34px;
     font-weight: 700;
     text-align: center;
     text-transform: uppercase;
+    position: absolute;
+    bottom: 87px;
 }

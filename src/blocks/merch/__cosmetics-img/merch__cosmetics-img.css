@@ -1,4 +1,12 @@
 .merch__cosmetics-img {
-    box-sizing: border-box;
-    height: 100%;
+    /* box-sizing: content-box; */
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
+@media screen and (max-width: 640px) {
+    .merch__cosmetics-img {
+        display: none;
+    }
 }

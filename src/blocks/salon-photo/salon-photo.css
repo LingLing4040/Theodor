@@ -2,3 +2,9 @@
     width: 100%;
     display: block;
 }
+
+@media screen and (max-width: 640px) {
+    .salon-photo {
+        display: none;
+    }
+}

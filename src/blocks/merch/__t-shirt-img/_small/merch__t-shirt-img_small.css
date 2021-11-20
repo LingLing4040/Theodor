@@ -1,0 +1,11 @@
+.merch__t-shirt-img_small {
+    display: none;
+}
+
+@media screen and (max-width: 640px) {
+    .merch__t-shirt-img_small {
+        display: block;
+        max-width: 100%;
+        max-height: 100%;
+    }
+}

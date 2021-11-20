@@ -13,3 +13,11 @@
     background-color: #000000;
     color: white;
 }
+
+@media screen and (max-width: 640px) {
+    .nav__element {
+        text-align: center;
+        margin: 0 auto;
+        align-self: center;
+    }
+}

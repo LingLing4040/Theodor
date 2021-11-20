@@ -1,6 +1,14 @@
 .header__contact {
-    margin: 373px auto 0;
-    width: 547.5px;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
+    align-self: center;
+}
+
+@media screen and (max-width: 640px) {
+    .header__contact {
+        grid-row-start: 3;
+        grid-row-end: 4;
+        margin: 0 auto 80px;
+    }
 }

@@ -1,7 +1,16 @@
 .nav {
     height: 65px;
     width: 100%;
+    /* margin: 0 18% 0; */
     background-color: #d9dbda;
     display: flex;
     justify-content: center;
+}
+
+@media screen and (max-width: 640px) {
+    .nav {
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+    }
 }

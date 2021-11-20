@@ -1,0 +1,12 @@
+.about__image_small {
+    display: none;
+}
+
+@media screen and (max-width: 640px) {
+    .about__image_small {
+        display: block;
+        margin: 135px auto 0;
+        width: 90%;
+        height: 87%;
+    }
+}

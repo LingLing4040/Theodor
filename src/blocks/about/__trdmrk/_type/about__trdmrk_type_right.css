@@ -1,0 +1,12 @@
+.about__trdmrk_type_right {
+    display: none;
+}
+
+@media screen and (max-width: 640px) {
+    .about__trdmrk_type_right {
+        display: block;
+        position: absolute;
+        right: 8%;
+        bottom: 8%;
+    }
+}

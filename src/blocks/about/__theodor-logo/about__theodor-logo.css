@@ -1,6 +1,12 @@
 .about__theodor-logo {
     display: flex;
-    flex-direction: column;
     align-items: center;
-    grid: 0;
+}
+
+@media screen and (max-width: 640px) {
+    .about__theodor-logo {
+        grid-row-start: 2;
+        grid-row-end: 3;
+        height: 660px;
+    }
 }

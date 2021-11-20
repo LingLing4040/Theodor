@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
 @import url(../blocks/header/header.css);
@@ -45,11 +49,32 @@
 @import url(../blocks/prices/__table-header/prices__table-header.css);
 @import url(../blocks/prices/__table-text/prices__table-text.css);
 @import url(../blocks/prices/__table-list/prices__table-list.css);
-/* @import url(../blocks/merch/merch.css);
+@import url(../blocks/merch/merch.css);
 @import url(../blocks/merch/__t-shirt/merch__t-shirt.css);
 @import url(../blocks/merch/__stickers/merch__stickers.css);
 @import url(../blocks/merch/__shaver/merch__shaver.css);
 @import url(../blocks/merch/__cosmetics/merch__cosmetics.css);
 @import url(../blocks/merch/__chair/merch__chair.css);
 @import url(../blocks/merch/__bag/merch__bag.css);
-@import url(../blocks/merch/__cosmetics-img/merch__cosmetics-img.css); */
+@import url(../blocks/merch/__cosmetics-img/merch__cosmetics-img.css);
+@import url(../blocks/merch/__button/merch__button.css);
+@import url(../blocks/location/location.css);
+@import url(../blocks/location/__map/location__map.css);
+@import url(../blocks/location/__info/location__info.css);
+@import url(../blocks/location/__image/location__image.css);
+@import url(../blocks/location/__nav/location__nav.css);
+@import url(../blocks/location/__paragraph/location__paragraph.css);
+@import url(../blocks/location/__social-icon/location__social-icon.css);
+@import url(../blocks/location/__text/location__text.css);
+@import url(../blocks/location/__button/location__button.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__span/footer__span.css);
+@import url(../blocks/button-up/button-up.css);
+@import url(../blocks/button-up/_active/button-up_active.css);
+@import url(../blocks/button-up/__image/button-up__image.css);
+@import url(../blocks/about/__text-container/about__text-container.css);
+@import url(../blocks/about/__trdmrk/_type/about__trdmrk_type_right.css);
+@import url(../blocks/about/__image/_small/about__image_small.css);
+@import url(../blocks/merch/__t-shirt-img/_small/merch__t-shirt-img_small.css);
+@import url(../blocks/merch/__t-shirt-img/merch__t-shirt-img.css);
+@import url(../blocks/merch/__cosmetics-img/_small/merch__cosmetics-img_small.css);

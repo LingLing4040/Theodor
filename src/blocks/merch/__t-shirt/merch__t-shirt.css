@@ -1,3 +1,9 @@
 .merch__t-shirt {
     grid-area: merch__t-shirt;
+    max-width: 100%;
+    max-height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    /* object-fit: cover; */
 }

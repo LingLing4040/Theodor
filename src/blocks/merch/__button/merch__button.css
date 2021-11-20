@@ -1,0 +1,31 @@
+.merch__button {
+    position: absolute;
+    bottom: 8%;
+    right: 15%;
+    background-color: #ee4b4b;
+    font-size: 34px;
+    line-height: 62px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 3px 35px 0;
+    z-index: 2;
+    border: none;
+    margin: 0 auto;
+}
+
+.merch__button:hover {
+    cursor: pointer;
+    background-color: #f5a34d;
+}
+
+@media screen and (max-width: 640px) {
+    .merch__button {
+        grid-template-areas:
+            'merch__t-shirt'
+            'merch__cosmetics';
+        grid-template-columns: 1fr;
+        /* grid-template-rows: 660px; */
+        right: unset;
+    }
+}

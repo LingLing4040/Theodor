@@ -1,0 +1,18 @@
+.location {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+    grid-template-areas: 'location__info location__map location__map';
+    max-height: 660px;
+    position: relative;
+}
+
+@media screen and (max-width: 640px) {
+    .location {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            'location__info'
+            'location__map';
+        grid-template-rows: 660px;
+        max-height: 2660px;
+    }
+}

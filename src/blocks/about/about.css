@@ -2,4 +2,12 @@
     display: grid;
     width: 100%;
     grid-template-columns: 1fr 1fr 1fr;
+    position: relative;
+}
+
+@media screen and (max-width: 640px) {
+    .about {
+        grid-template-columns: 1fr;
+        grid-template-rows: 660px;
+    }
 }

@@ -1,6 +1,11 @@
 .merch__chair {
     grid-area: merch__chair;
-    box-sizing: border-box;
+    max-width: 100%;
+    max-height: 100%;
+}
 
-    width: 100%;
+@media screen and (max-width: 640px) {
+    .merch__chair {
+        display: none;
+    }
 }

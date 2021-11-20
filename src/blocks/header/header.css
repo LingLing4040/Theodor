@@ -1,6 +1,14 @@
 .header {
-    display: flex;
-    justify-content: space-evenly;
-    height: 935px;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr;
+    max-height: 935px;
     width: 100%;
+    position: relative;
+}
+
+@media screen and (max-width: 640px) {
+    .header {
+        grid-template-columns: 1fr;
+        max-height: 2000px;
+    }
 }

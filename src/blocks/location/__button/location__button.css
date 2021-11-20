@@ -1,0 +1,26 @@
+.location__button {
+    position: absolute;
+    bottom: 6.5%;
+    right: 9%;
+    background-color: #ee4b4b;
+    font-size: 34px;
+    line-height: 62px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 6px 52px 0;
+    z-index: 2;
+    border: none;
+}
+
+.location__button:hover {
+    cursor: pointer;
+    background-color: #f5a34d;
+}
+
+@media screen and (max-width: 640px) {
+    .location__button {
+        right: unset;
+        bottom: 4%;
+    }
+}

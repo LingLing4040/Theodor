@@ -1,4 +1,24 @@
 .about__image {
     margin: 20px auto 0;
-    width: 322px;
+    width: 67%;
+    height: 87%;
+}
+
+@media screen and (max-width: 1440px) {
+    .about__image {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .about__image {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .about__image {
+        margin: 135px auto 0;
+        display: none;
+    }
 }

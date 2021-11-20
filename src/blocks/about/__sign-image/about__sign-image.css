@@ -1,4 +1,12 @@
 .about__sign-image {
-    margin: 230px auto 0;
-    width: 457px;
+    margin: 0 auto 0;
+    width: 90%;
+}
+
+@media screen and (max-width: 640px) {
+    .about__sign-image {
+        width: 72%;
+        /* align-self: center; */
+        margin: 0 auto;
+    }
 }

@@ -1,0 +1,16 @@
+.button-up {
+    position: fixed;
+    bottom: 37px;
+    right: 30px;
+    border: 0;
+    border-radius: 50%;
+    visibility: hidden;
+    padding: 0;
+    margin: 0;
+    transition: 0.2s border;
+}
+
+.button-up:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
