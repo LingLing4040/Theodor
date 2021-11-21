@@ -5,3 +5,9 @@
     font-weight: 700;
     margin: 0 0 0 119px;
 }
+
+@media screen and (max-width: 1024px) {
+    .prices__table-header {
+        margin: 0 0 0 70px;
+    }
+}
