@@ -18,9 +18,9 @@
 .about__text{height:100%;margin:0 auto}@media screen and (max-width:640px){.about__text{grid-row-end:4;grid-row-start:3;margin-bottom:80px}}
 .about__paragraph{font-size:28px;font-weight:400;margin:0 auto 6%;max-width:90%;text-align:left;text-transform:uppercase}@media screen and (max-width:640px){.about__paragraph{max-width:75%;text-align:center}}
 .about__paragraph_red{color:#ef6260;margin-top:16.5%}@media screen and (max-width:1620px){.about__paragraph_red{margin-top:12%}}@media screen and (max-width:640px){.about__paragraph_red{margin-top:8%}}
-.about__theodor-logo{align-items:center;display:flex}@media screen and (max-width:640px){.about__theodor-logo{grid-row-end:3;grid-row-start:2;height:660px}}
+.about__theodor-logo{align-items:center;display:flex;margin:0 auto;width:90%}@media screen and (max-width:640px){.about__theodor-logo{grid-row-end:3;grid-row-start:2}}
 .about__trdmrk{font-size:22px;font-weight:700;margin:0 auto;text-align:center;text-transform:uppercase;width:30px}@media screen and (max-width:640px){.about__trdmrk{position:absolute}}
-.about__image{height:87%;margin:20px auto 0;width:67%}@media screen and (max-width:1440px){.about__image{width:80%}}@media screen and (max-width:1280px){.about__image{width:85%}}@media screen and (max-width:640px){.about__image{display:none;margin:135px auto 0}}
+.about__image{margin:30px auto 40px;max-height:660px;width:100%}@media screen and (max-width:640px){.about__image{display:none}}
 .about__little-logo{margin-left:6px;position:relative;top:-66px;z-index:1}
 .about__trdmrk_type_lower{margin-bottom:auto;padding-bottom:35px}@media screen and (max-width:640px){.about__trdmrk_type_lower{display:none}}
 .about__trdmrk_type_upper{margin-top:auto;padding-top:35px}@media screen and (max-width:640px){.about__trdmrk_type_upper{display:none}}
@@ -41,9 +41,9 @@
 .prices__logo{align-items:center;background-color:#000;display:flex;flex-direction:column;justify-content:center;position:relative}@media screen and (max-width:640px){.prices__logo{height:660px}}
 .prices__logo-img{width:67%}
 .prices__span-accent{color:#ee4c4a;margin-left:auto;text-align:center}
-.prices__table-cell{margin:50px 25px 0}@media screen and (max-width:640px){.prices__table-cell{margin:50px 36px 0}}@media screen and (max-width:425px){.prices__table-cell{margin:50px 15px 0}}
-.prices__table-header{font-size:28px;font-weight:700;margin:0 0 0 119px;text-transform:uppercase}
-.prices__table-text{display:flex;font-size:28px;font-weight:400;line-height:36px;text-transform:uppercase}
+.prices__table-cell{margin:50px 25px 0}@media screen and (max-width:1280px){.prices__table-cell{margin:50px 20px 0}}@media screen and (max-width:1024px){.prices__table-cell{margin:50px 10px 0 11px}}@media screen and (max-width:640px){.prices__table-cell{margin:50px 36px 0}}@media screen and (max-width:425px){.prices__table-cell{margin:50px 15px 0}}
+.prices__table-header{font-size:28px;font-weight:700;margin:0 0 0 119px;text-transform:uppercase}@media screen and (max-width:1024px){.prices__table-header{margin:0 0 0 70px}}
+.prices__table-text{display:flex;font-size:28px;font-weight:400;line-height:36px;text-transform:uppercase}@media screen and (max-width:1440px){.prices__table-text{font-size:21px}}@media screen and (max-width:1280px){.prices__table-text{font-size:19px}}@media screen and (max-width:1024px){.prices__table-text{font-size:16px}}@media screen and (max-width:640px){.prices__table-text{font-size:19px}}
 .prices__table-list{list-style:none;margin:13px 0 0;padding:0}
 .merch{display:grid;grid-template-areas:"merch__t-shirt merch__t-shirt merch__stickers" "merch__shaver merch__shaver merch__bag" "merch__chair merch__cosmetics merch__cosmetics";grid-template-columns:repeat(auto-fit,minmax(284px,1fr));width:100%}@media screen and (max-width:640px){.merch{grid-template-areas:"merch__t-shirt" "merch__cosmetics";grid-template-columns:1fr}}
 .merch__t-shirt{display:flex;grid-area:merch__t-shirt;justify-content:center;max-height:100%;max-width:100%;position:relative}
@@ -65,12 +65,12 @@
 .location__button{background-color:#ee4b4b;border:none;bottom:6.5%;color:#000;font-size:34px;font-weight:700;line-height:62px;padding:6px 52px 0;position:absolute;right:9%;text-align:center;text-transform:uppercase;z-index:2}.location__button:hover{background-color:#f5a34d;cursor:pointer}@media screen and (max-width:640px){.location__button{bottom:4%;right:unset}}
 .footer{background-color:#f5a34d;color:#fff;font-size:34px;font-weight:700;line-height:48px;padding:3px 0 0;text-align:center;text-transform:uppercase}
 .footer__span{color:#000;margin-left:5px}
-.button-up{border:0;border-radius:50%;bottom:37px;margin:0;padding:0;position:fixed;right:30px;transition:border .2s;visibility:hidden}.button-up:hover{cursor:pointer;opacity:.8}
+.button-up{border:0;border-radius:50%;bottom:37px;margin:0;padding:0;position:fixed;right:30px;transition:border .2s;visibility:hidden;z-index:2}.button-up:hover{cursor:pointer;opacity:.8}
 .button-up_active{visibility:visible}
 .button-up__image{display:block;height:116px;width:116px}
 .about__text-container{align-self:center;max-height:67%}
 .about__trdmrk_type_right{display:none}@media screen and (max-width:640px){.about__trdmrk_type_right{bottom:8%;display:block;position:absolute;right:8%}}
-.about__image_small{display:none}@media screen and (max-width:640px){.about__image_small{display:block;height:87%;margin:135px auto 0;width:90%}}
+.about__image_small{display:none;width:100%}@media screen and (max-width:640px){.about__image_small{display:block;margin:100px auto 0}}@media screen and (max-width:425px){.about__image_small{margin:80px auto 0}}
 .merch__t-shirt-img_small{display:none}@media screen and (max-width:640px){.merch__t-shirt-img_small{display:block;max-height:100%;max-width:100%}}
 .merch__t-shirt-img{display:block;max-height:100%;max-width:100%}@media screen and (max-width:640px){.merch__t-shirt-img{display:none}}
 .merch__cosmetics-img_small{display:none}@media screen and (max-width:640px){.merch__cosmetics-img_small{display:block;max-height:100%;max-width:100%}}
