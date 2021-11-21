@@ -63,7 +63,7 @@
 .location__social-icon{display:block;height:23px;width:24px}
 .location__text{align-items:center;color:#fff;display:flex;flex-direction:column;margin:93px auto 0;max-width:90%}
 .location__button{background-color:#ee4b4b;border:none;bottom:6.5%;color:#000;font-size:34px;font-weight:700;line-height:62px;padding:6px 52px 0;position:absolute;right:9%;text-align:center;text-transform:uppercase;z-index:2}.location__button:hover{background-color:#f5a34d;cursor:pointer}@media screen and (max-width:640px){.location__button{bottom:4%;right:unset}}
-.footer{background-color:#f5a34d;color:#fff;font-size:34px;font-weight:700;line-height:48px;padding:3px 0 0;text-align:center;text-transform:uppercase}
+.footer{background-color:#f5a34d;color:#fff;font-size:28px;font-weight:700;line-height:48px;padding:3px 0 0;text-align:center;text-transform:uppercase}@media screen and (max-width:1440px){.footer{font-size:21px;line-height:38px}}@media screen and (max-width:1280px){.footer{font-size:19px;line-height:34px}}@media screen and (max-width:1024px){.footer{font-size:16px;line-height:28px}}@media screen and (max-width:640px){.footer{font-size:19px;line-height:34px}}
 .footer__span{color:#000;margin-left:5px}
 .button-up{border:0;border-radius:50%;bottom:37px;margin:0;padding:0;position:fixed;right:30px;transition:border .2s;visibility:hidden;z-index:2}.button-up:hover{cursor:pointer;opacity:.8}
 .button-up_active{visibility:visible}
